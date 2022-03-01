@@ -207,3 +207,12 @@ http://localhost:8080
 </tr>
 
 </table>
+
+# application.properties settings
+# DB Configs
+
+spring.datasource.url=jdbc:postgresql://localhost:5432/bookman?useSSL=false<br/>
+spring.datasource.username=postgres<br/>
+spring.datasource.password=test123<br/>
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQL81Dialect<br/>
+spring.jpa.hibernate.ddl-auto=update<br/>
